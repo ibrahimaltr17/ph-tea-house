@@ -91,33 +91,83 @@
         <!-- Feature Products End -->
 
         <!-- Tea overview Section start -->
-        <section class="tea-overview flex">
-            <div class="overview-image w-1/2 grid grid-cols-2 grid-row-5 gap-8 ">
-                <div class="bg-gradient-to-r from-[#FF0000] to-[#FF8938] rounded-lg  row-span-2" ></div>
-                <div class="bg-gradient-to-t from-[#E6A623] to-[#805C13] rounded-lg row-span-3 p-8">
-                    <img src="images/fresh-1.png" alt="">
+        <section class="tea-overview lg:flex gap-10">
+            <div class="overview-image lg:w-1/2 grid grid-cols-1 sm:grid-cols-2 grid-rows-3 gap-8 md:mr-10">
+                <div class="bg-gradient-to-r from-red-100 to-orange-100 rounded-lg row-span-1 " ></div>
+                <div class="  bg-gradient-to-t from-[#ebdbbb] to-[#d3ccbd] rounded-lg row-span-2 p-8">
+                    <img class="m-auto" src="images/fresh-1.png" alt="">
                 </div>
-                <div class="bg-gradient-to-b from-[#577639] to-[#A2DC6A] rounded-lg row-span-3 p-8">
-                    <img src="images/fresh-2.png" alt="">
+                <div class=" bg-gradient-to-b from-green-100 to-green-200 rounded-lg row-span-2 p-8">
+                    <img class="m-auto" src="images/fresh-2.png" alt="">
                 </div>
-                <div class="bg-gradient-to-r from-[#D9D9D9] to-transparent rounded-lg row-span-2"></div>
+                <div class="  bg-gradient-to-r from-[#D9D9D9] to-transparent rounded-lg row-span-1"></div>
             </div>
-            <div class="overview-content md:w-1/2 space-y-5">
+            <div class="overview-content mt-7 lg:w-1/2 space-y-5">
                 <h2 class="md:text-5xl text-3xl font-extrabold">Great Tea, Freshly Presented</h2>
                 <div>
-                    <p class="md:text-sm text-xs text-[#777777] font-medium">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+                    <p class="md:text-sm text-xs text-[#777777] font-medium max-w-[580px]">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
                 </div>
                 <div class="space-y-3">
                     <h4 class="text-xl  font-extrabold">Unique Taste</h4>
-                    <p class="md:text-sm text-xs text-[#777777] font-medium">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+                    <p class="md:text-sm text-xs text-[#777777] font-medium max-w-[450px]">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
                 </div>
                 <div>
                     <h4 class="text-xl  font-extrabold">Premium Quality</h4>
-                    <p class="md:text-sm text-xs text-[#777777] font-medium">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+                    <p class="md:text-sm text-xs text-[#777777] font-medium max-w-[450px]">Premium Quality that makes tea more elegant and more durable when you use it.</p>
                 </div>
             </div>
         </section>
         <!-- Tea overview Section End -->
+
+        <!-- Client Review Start -->
+        <section class="mt-32 rounded-lg bg-gradient-to-r from-[#FF8938] to-[#FF0000] p-20 flex justify-between">
+            <div class="review-text text-white max-w-md space-y-5">
+                <h2 class="md:text-5xl sm:text-3xl font-extrabold">Meet Our Super Clients</h2>
+                <p class="text-sm sm:text-xs font-medium">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                <button class="py-3 px-6 bg-white text-xl rounded-lg text-orange-500 font-bold">Show All</button>
+            </div>
+            <div class="review space-y-16 relative">
+                <div class="review-box max-w-md p-10 bg-white rounded-lg space-y-5 z-10 relative">
+                    <div class="profile-picture bg-white rounded-[50%] absolute top-[-20px] left-[-20px] p-1">
+                        <img class="" src="images/client.png" alt="">
+                    </div>
+                    <div class="client-message">
+                        <p class="text-[#777777] text-sm ">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                    </div>
+                    <div class="client-profile">
+                        <h6 class="text-sm font-bold">Ilham Yuda</h6>
+                        <p class="text-sm font-medium text-[#5D5A6F]">Businessman</p>
+                    </div>
+                </div>
+                <div class="absolute top-0 -z-50">
+                    <div class="review-box max-w-md p-10 bg-white rounded-lg space-y-5 relative">
+                        <div class="profile-picture bg-white rounded-[50%] absolute top-[-20px] left-[-20px] p-1">
+                            <img class="" src="images/client.png" alt="">
+                        </div>
+                        <div class="client-message">
+                            <p class="text-[#777777] text-sm ">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                        </div>
+                        <div class="client-profile">
+                            <h6 class="text-sm font-bold">Ilham Yuda</h6>
+                            <p class="text-sm font-medium text-[#5D5A6F]">Businessman</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-box max-w-md p-10 bg-white rounded-lg z-10 space-y-5 relative">
+                    <div class="profile-picture bg-white rounded-[50%] absolute top-[-20px] left-[-20px] p-1">
+                        <img class="" src="images/client.png" alt="">
+                    </div>
+                    <div class="client-message">
+                        <p class="text-[#777777] text-sm ">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                    </div>
+                    <div class="client-profile">
+                        <h6 class="text-sm font-bold">Ilham Yuda</h6>
+                        <p class="text-sm font-medium text-[#5D5A6F]">Businessman</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Client Review Start -->
     </main>
     <footer>
 
